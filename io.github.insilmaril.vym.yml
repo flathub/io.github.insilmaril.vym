@@ -1,7 +1,6 @@
 app-id: io.github.insilmaril.vym
 runtime: org.kde.Platform
 runtime-version: "5.15-23.08"
-branch: "23.08"
 sdk: org.kde.Sdk
 command: vym
 rename-desktop-file: vym.desktop
