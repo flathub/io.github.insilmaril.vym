@@ -11,6 +11,9 @@
             It is a powerful personal task manager that lets you create mind maps and export
             them to multiple formats.
 	</p>
+	<p>
+	    Note: In the beta branch there is a version of VYM that uses org.kde.Platform//6.7
+	</p>
     </description>
     <screenshots>
         <screenshot type="default">
