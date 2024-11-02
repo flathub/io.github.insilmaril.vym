@@ -17,10 +17,13 @@
     </description>
     <screenshots>
         <screenshot type="default">
-          <image>https://a.fsdn.com/con/app/proj/vym/screenshots/328319.jpg</image>
+          <image>https://bztd.github.io/Flathub/VYM/main.png</image>
         </screenshot>
         <screenshot>
-          <image>https://a.fsdn.com/con/app/proj/vym/screenshots/328313.jpg</image>
+          <image>https://bztd.github.io/Flathub/VYM/1.png</image>
+        </screenshot>
+	<screenshot>
+          <image>https://bztd.github.io/Flathub/VYM/2.png</image>
         </screenshot>
     </screenshots>
     <categories>
