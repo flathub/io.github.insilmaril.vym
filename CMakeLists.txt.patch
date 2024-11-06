@@ -1,0 +1,11 @@
+--- a/CMakeLists.txt	2024-11-05 21:04:45.136052361 -0500
++++ b/CMakeLists.txt	2024-11-05 21:06:55.716054796 -0500
+@@ -8,7 +8,7 @@
+ set(CMAKE_CXX_STANDARD_REQUIRED ON)
+ 
+ if (UNIX)
+-    set(CMAKE_CXX_COMPILER g++-10)
++    set(CMAKE_CXX_COMPILER g++)
+ endif()
+ 
+ set(QtComponents
