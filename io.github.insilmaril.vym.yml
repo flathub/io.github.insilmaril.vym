@@ -22,6 +22,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/insilmaril/vym.git
-        commit: da30b21109544ee0596ebf4d9738b5fed69b3cc4
+        commit: 53b86123cf84d7fcfdba31b21a8d474dfb2de381
       - type: file
         path: io.github.insilmaril.vym.appdata.xml
