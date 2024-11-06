@@ -1,6 +1,6 @@
 app-id: io.github.insilmaril.vym
 runtime: org.kde.Platform
-runtime-version: "5.15-23.08"
+runtime-version: "6.7"
 sdk: org.kde.Sdk
 command: vym
 rename-desktop-file: vym.desktop
@@ -22,7 +22,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/insilmaril/vym.git
-        tag: v2.9.26
-        commit: 49a4836f3327c40fe0dcdae84c7db056bbf6c427
+        commit: 53b86123cf84d7fcfdba31b21a8d474dfb2de381
       - type: file
         path: io.github.insilmaril.vym.appdata.xml
+      - type: patch
+        path: CMakeLists.txt.patch
