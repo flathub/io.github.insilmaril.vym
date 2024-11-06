@@ -25,3 +25,5 @@ modules:
         commit: 53b86123cf84d7fcfdba31b21a8d474dfb2de381
       - type: file
         path: io.github.insilmaril.vym.appdata.xml
+      - type: patch
+        path: CMakeLists.txt.patch
