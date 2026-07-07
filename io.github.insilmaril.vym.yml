@@ -26,3 +26,6 @@ modules:
         commit: 32fa76ccd856f6c522e71f044b06687525c4ef46
       - type: patch
         path: appdata.patch
+      - type: patch
+        path: CMakeLists.txt.patch
+        
