@@ -22,7 +22,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/insilmaril/vym.git
-        tag: v2.9.26
-        commit: 49a4836f3327c40fe0dcdae84c7db056bbf6c427
+        tag: v3.0.0
+        commit: 32fa76ccd856f6c522e71f044b06687525c4ef46
       - type: patch
         path: appdata.patch
