@@ -18,11 +18,11 @@ modules:
     buildsystem: cmake-ninja
     post-install:
       - install -Dm644 icons/vym-128x128.png /app/share/icons/hicolor/128x128/apps/vym.png
-      - install -Dm644 io.github.insilmaril.vym.appdata.xml /app/share/appdata/io.github.insilmaril.vym.appdata.xml
+      - install -Dm644 config/io.github.insilmaril.vym.appdata.xml /app/share/appdata/io.github.insilmaril.vym.appdata.xml
     sources:
       - type: git
         url: https://github.com/insilmaril/vym.git
         tag: v2.9.26
         commit: 49a4836f3327c40fe0dcdae84c7db056bbf6c427
-      - type: file
-        path: io.github.insilmaril.vym.appdata.xml
+      - type: patch
+        path: appdata.patch
