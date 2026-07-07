@@ -1,0 +1,10 @@
+--- io.github.insilmaril.vym.appdata.xml	2026-07-07 16:25:50.356034948 -0500
++++ ithub.insilmaril.vym.appdata.xml	2026-07-07 16:31:02.744046073 -0500
+@@ -43,6 +43,6 @@
+         <content_attribute id="social-info">mild</content_attribute>
+     </content_rating>
+     <releases>
+-	<release version="2.9.26" date="2023-11-23"></release>
++	<release version="3.0.0" date="2026-07-06"></release>
+     </releases>
+ </component>
