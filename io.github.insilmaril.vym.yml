@@ -1,6 +1,6 @@
 app-id: io.github.insilmaril.vym
 runtime: org.kde.Platform
-runtime-version: "5.15-25.08"
+runtime-version: "6.10"
 sdk: org.kde.Sdk
 command: vym
 rename-desktop-file: vym.desktop
@@ -18,11 +18,14 @@ modules:
     buildsystem: cmake-ninja
     post-install:
       - install -Dm644 icons/vym-128x128.png /app/share/icons/hicolor/128x128/apps/vym.png
-      - install -Dm644 io.github.insilmaril.vym.appdata.xml /app/share/appdata/io.github.insilmaril.vym.appdata.xml
+      - install -Dm644 config/io.github.insilmaril.vym.appdata.xml /app/share/appdata/io.github.insilmaril.vym.appdata.xml
     sources:
       - type: git
         url: https://github.com/insilmaril/vym.git
-        tag: v2.9.26
-        commit: 49a4836f3327c40fe0dcdae84c7db056bbf6c427
-      - type: file
-        path: io.github.insilmaril.vym.appdata.xml
+        tag: v3.0.0
+        commit: 32fa76ccd856f6c522e71f044b06687525c4ef46
+      - type: patch
+        path: appdata.patch
+      - type: patch
+        path: CMakeLists.txt.patch
+        
